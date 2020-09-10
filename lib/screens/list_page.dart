@@ -76,7 +76,6 @@ class _ListPageState extends State<ListPage> {
                   ),
                   ListView.builder(
                     shrinkWrap: true,
-                    padding: EdgeInsets.fromLTRB(0, 15, 0, 0),
                     itemCount: employe.items.length,
                     itemBuilder: (ctx, i) => ListEmploye(
                       name:
